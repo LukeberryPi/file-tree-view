@@ -1,0 +1,26 @@
+#root {
+  height: 100vh;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.folder {
+  background: forestgreen;
+  padding: 2px 6px;
+}
+
+.file {
+  background: yellow;
+  padding: 2px 6px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
